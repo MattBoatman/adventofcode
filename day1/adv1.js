@@ -10,7 +10,6 @@ function getData(){
 function day1() {
     let contents = getData();
     let horizontal = 0, vertical = 0;
-    let direction = 0;
     let dir = ['up','down','right','left'];
     let currentDir = dir[0];
     contents.forEach(function(v) {
@@ -55,6 +54,7 @@ function day1() {
                 default:
                     break;
         }
+
     });
 
 console.log(Math.abs(horizontal)+Math.abs(vertical));
