@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "packages for advent of code",
+  "author": "Matt Boatman <matthewd.boatman@gmail.com> (https://github.com/boatrr)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+      
+  }
+}
