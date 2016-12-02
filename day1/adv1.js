@@ -25,12 +25,12 @@ function day1() {
                 } 
                     break;
                 case 'down':
-                if (v[0] == 'L') {
-                    horizontal += n; 
-                    currentDir=dir[2];
-                } else {
-                    horizontal -= n;
+                if (v[0] == 'R') {
+                    horizontal -= n; 
                     currentDir=dir[3];
+                } else {
+                    horizontal += n;
+                    currentDir=dir[2];
                 }
                     break;
                 case 'left': 
@@ -43,12 +43,12 @@ function day1() {
                     }
                     break;
                 case 'right': 
-                    if(v[0] === 'L') {
-                        vertical += n; 
-                        currentDir=dir[0];
-                    } else {
-                        vertical -= n;
+                    if(v[0] === 'R') {
+                        vertical -= n; 
                         currentDir=dir[1];
+                    } else {
+                        vertical += n;
+                        currentDir=dir[0];
                     } 
                     break;
                 default:
